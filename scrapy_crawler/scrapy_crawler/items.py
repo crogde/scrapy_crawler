@@ -20,4 +20,5 @@ class Product(scrapy.Item):
     link = scrapy.Field(
         output_processor=TakeFirst(),
         
+        
     )
